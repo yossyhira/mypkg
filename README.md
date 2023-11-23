@@ -4,7 +4,7 @@
 ## インストール方法
 下記のコードをホームディレクトリでクローンしてください
 ```
-git clone git@github.com:yossyhira/mypkg.git
+git clone https://github.com/yossyhira/mypkg.git
 ```
 
 ## ライセンス
