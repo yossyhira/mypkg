@@ -3,20 +3,19 @@ from rclpy.node import Node
 from std_msgs.msg import Int16
 
 class Talker():
-    def __init__(self): #init イニシャライズ 
+    def __init__(self,node): #init イニシャライズ 
         self.pub = node.create_publisher(Int16,"countup",10)
         self.n = 0
+        node.create_timer(0.5,self.cb)
+
+    def cb (self):
+        msg = Int16()
+        msg.data = self.n
+        self.pub.publish(msg)
+        self.n += 1
 
 rclpy.init()
 node = Node("talker")
-talker = Talker() #initが実行、（）の引数はなし。classでは引数にselfがあるが書かなくてよい
-
-def cb ():
-    msg = Int16()
-    msg.data = talker.n
-    talker.pub.publish(msg)
-    talker.n += 1
-
-node.create_timer(0.5,cb)
+talker = Talker(node)
 rclpy.spin(node)
 
