@@ -1,4 +1,6 @@
 # mypkg
+[![test](https://github.com/yossyhira/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/yossyhira/mypkg/actions/workflows/test.yml)
+
 ロボットシステム学2023のROS2講義用リポジトリ
 
 ## このリポジトリで使用可能なノード
