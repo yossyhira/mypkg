@@ -76,11 +76,20 @@ cd mypkg
 ```
 上記の方法でtalkerとlistenerを実行してください
 
+## 動作環境
+### 必要なソフトウェア　
+
+* python
+  * テスト済み：3.7 ~ 3.10
+
+### テスト環境
+* ubuntu 22.04.2 LTS
+
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
   
 
 
-  *このパッケージのlistener.py以外のコードは，[こちら](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです.
+  *このパッケージのtest.ymlとlistener.py以外のコードは，[こちら](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです.
 
   * © 2023 Yoshitaka Hirata
