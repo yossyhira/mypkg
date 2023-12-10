@@ -74,6 +74,6 @@ git clone https://github.com/yossyhira/mypkg.git
   
 
 
-  *このパッケージのjapanes_holiday,anniversaries.txt,test2.bash以外のコマンドとコードは，[こちら](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです.
+  *このパッケージのlistener.py以外のコードは，[こちら](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです.
 
   * © 2023 Yoshitaka Hirata
