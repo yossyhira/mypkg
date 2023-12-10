@@ -70,6 +70,11 @@ $ ros2 launch mypkg talk_listen.launch.py
 ```
 git clone https://github.com/yossyhira/mypkg.git
 ```
+cdコマンドを使い、mypkgディレクトリに移動してください
+```
+cd mypkg
+```
+上記の方法でtalkerとlistenerを実行してください
 
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
