@@ -4,17 +4,17 @@
 ロボットシステム学2023のROS2講義用リポジトリ
 
 ## このリポジトリで使用可能なノード
-・talker
+* talker
 
-・listener
+* listener
 
-## ノードの機能と使用方法
+## ノードの機能と実行方法
 ### talker
-・機能
+* 機能
 
  実行すると０から0.5秒おきに１ずつ足された結果をメッセージとして送信する
 
-・使用方法
+* 実行方法
 
 
 ```bash
@@ -22,11 +22,11 @@ $ ros2 run mypkg talker #<-実行結果は何も表示されない
 ```
 
 ### listener
-・機能
+* 機能
 
 talkerからメッセージを受信する
 
-・使用方法
+* 実行方法
 
 talkerとは別の端末で下記のコードを実行
 
@@ -44,11 +44,11 @@ $ ros2 run mypkg listener
 
 ## launch
 
-・機能
+* 機能
 
 talkerとlistenerを同時に実行する
 
-・使用方法
+* 実行方法
 
 ```bash
 $ ros2 launch mypkg talk_listen.launch.py
@@ -90,6 +90,6 @@ cd mypkg
   
 
 
-  *このパッケージのtest.ymlとlistener.py以外のコードは，[こちら](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです.
+  * このパッケージのtest.ymlとlistener.py以外のコードは，[こちら](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです.
 
   * © 2023 Yoshitaka Hirata
