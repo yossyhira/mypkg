@@ -35,11 +35,11 @@ $ ros2 run mypkg talker #<-実行結果は何も表示されない
 ### listener
 * 機能
 
-talkerからメッセージを受信する
+  talkerからメッセージを受信する
 
 * 実行方法
 
-talkerとは別の端末で下記のコードを実行
+  talkerとは別の端末で下記のコードを実行
 
 ```bash
 $ ros2 run mypkg listener
@@ -57,7 +57,7 @@ $ ros2 run mypkg listener
 
 * 機能
 
-talkerとlistenerを同時に実行する
+  talkerとlistenerを同時に実行する
 
 * 実行方法
 
