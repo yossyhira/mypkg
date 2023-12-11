@@ -8,6 +8,17 @@
 
 * listener
 
+## インストール方法
+下記のコードをホームディレクトリでクローンしてください
+```
+git clone https://github.com/yossyhira/mypkg.git
+```
+cdコマンドを使い、mypkgディレクトリに移動してください
+```
+cd mypkg
+```
+下記の方法でtalkerとlistenerを実行してください
+
 ## ノードの機能と実行方法
 ### talker
 * 機能
@@ -65,16 +76,6 @@ $ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1700715697.125842379] [listener]: Listen:6
 ```
 
-## インストール方法
-下記のコードをホームディレクトリでクローンしてください
-```
-git clone https://github.com/yossyhira/mypkg.git
-```
-cdコマンドを使い、mypkgディレクトリに移動してください
-```
-cd mypkg
-```
-上記の方法でtalkerとlistenerを実行してください
 
 ## 動作環境
 ### 必要なソフトウェア　
