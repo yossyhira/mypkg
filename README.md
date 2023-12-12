@@ -29,7 +29,7 @@ cd mypkg
 
 
 ```bash
-$ ros2 run mypkg talker #<-実行結果は何も表示されない
+$ ros2 run mypkg talker 
 ```
 
 ### listener
