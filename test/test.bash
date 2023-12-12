@@ -1,4 +1,6 @@
 #!/bin/bash 
+#SPDX-FileCopyrightText: 2023 Yoshitaka Hirata
+#SPDX-License-Indentifier: BSD-3-Clause
 
 dir=~  #～はホームディレクトリのこと
 
