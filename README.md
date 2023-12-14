@@ -20,6 +20,8 @@ cd mypkg
 下記の方法でtalkerとlistenerを実行してください
 
 ## 各ノードの機能
+![rosgraph](https://github.com/yossyhira/mypkg/assets/147679155/35902dd6-ecc3-4a53-85b6-2d4995e040ae)
+
 ### talker
 * 機能
 
@@ -64,11 +66,12 @@ $ ros2 launch mypkg talk_listen.launch.py
 * ubuntu 22.04.2 LTS
   * ROS2 humble
 
+### テストに利用したコンテナ
+上田教授の[コンテナ](https://hub.docker.com/layers/ryuichiueda/ubuntu22.04-ros2/latest/images/sha256-0e1773bc6f12b57172c8818aac36aeb97ca13269028028d49ad5f6f8cc0d6204?context=explore)を利用させていただきました。
+
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
   
-
-
   * このパッケージのtest.ymlのpythonのバージョンテスト部分以外のコードは，[こちら](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです.
 
   * © 2023 Yoshitaka Hirata
