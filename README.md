@@ -19,39 +19,16 @@ cd mypkg
 ```
 下記の方法でtalkerとlistenerを実行してください
 
-## ノードの機能と実行方法
+## 各ノードの機能
 ### talker
 * 機能
 
   実行すると０から0.5秒おきに１ずつ足された結果をメッセージとして送信する
 
-* 実行方法
-
-
-```bash
-$ ros2 run mypkg talker 
-```
-
 ### listener
 * 機能
 
   talkerからメッセージを受信する
-
-* 実行方法
-
-  talkerとは別の端末で下記のコードを実行
-
-```bash
-$ ros2 run mypkg listener
-[INFO] [1700712742.234721050] [listener]: Listen:130
-[INFO] [1700712742.724570259] [listener]: Listen:131
-[INFO] [1700712743.224212712] [listener]: Listen:132
-[INFO] [1700712743.724288274] [listener]: Listen:133
-[INFO] [1700712744.223597699] [listener]: Listen:134
-[INFO] [1700712744.723681795] [listener]: Listen:135
-[INFO] [1700712745.223837187] [listener]: Listen:136
-[INFO] [1700712745.723885839] [listener]: Listen:137
-```
 
 ## launch
 
@@ -92,6 +69,6 @@ $ ros2 launch mypkg talk_listen.launch.py
   
 
 
-  * このパッケージのtest.ymlとlistener.py以外のコードは，[こちら](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです.
+  * このパッケージのtest.ymlのpythonのバージョンテスト部分以外のコードは，[こちら](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです.
 
   * © 2023 Yoshitaka Hirata
